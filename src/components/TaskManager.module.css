@@ -1,0 +1,43 @@
+/* TaskManager.module.css */
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .side{
+    display: flex;
+    flex-direction: row;
+    gap: 185px;
+  }
+  .button {
+    width: 100px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .taskcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .taskInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
